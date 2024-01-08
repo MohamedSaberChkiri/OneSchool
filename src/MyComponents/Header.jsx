@@ -5,15 +5,15 @@ import '../App.css'
 function Header() {
   return (
     <div className='Header-container'>
-        <div className="logo">OneSchool</div>
+        <div className="logo text-white">OneSchool</div>
         <div className="buttons">
-            <Button variant="ghost">Home</Button>
-            <Button variant="ghost">Courses</Button>
-            <Button variant="ghost">Programs</Button>
-            <Button variant="ghost">Teachers</Button>
+            <Button variant="ghost" className="text-white">Home</Button>
+            <Button variant="ghost" className="text-white">Courses</Button>
+            <Button variant="ghost" className="text-white">Programs</Button>
+            <Button variant="ghost" className="text-white">Teachers</Button>
         </div>
         <div className="contactus">
-            <Button>Contact Us</Button>
+            <Button className='bg-white text-black hover:text-white' >Contact Us</Button>
         </div>
 
 
