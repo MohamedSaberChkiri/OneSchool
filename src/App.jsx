@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import Courses from './MyComponents/Courses'
 import Home from './MyComponents/Home'
 
 
@@ -11,10 +12,11 @@ import Home from './MyComponents/Home'
 function App() {
 
 
-  return (
+  return ( 
     <>
      
     <Home/>
+    <Courses/>
 
       
     </>

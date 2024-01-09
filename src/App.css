@@ -88,3 +88,45 @@
     font-size: 40px;
     font-weight: bold;
   }
+
+  .courses-container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+
+  }
+  .colored-part{
+    width: 100%;
+    height: 50%;
+    background: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .colored-part h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 5vh;
+  }
+  .white-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: -100px;
+    
+    
+  }
+
+  .course-card{
+    height: 400px;
+    width: 250px;
+    background: grey;
+    border: 2px solid black;
+  }
