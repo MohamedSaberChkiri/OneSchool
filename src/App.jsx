@@ -3,6 +3,7 @@
 import './App.css'
 import Courses from './MyComponents/Courses'
 import Home from './MyComponents/Home'
+import Programs from './MyComponents/Programs'
 
 
 
@@ -16,7 +17,12 @@ function App() {
     <>
      
     <Home/>
+    
+    
+    
     <Courses/>
+    <Programs/>
+    
 
       
     </>
