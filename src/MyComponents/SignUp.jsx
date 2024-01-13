@@ -14,7 +14,7 @@ function SignUp() {
             <Input type="password" placeholder="password" className="mb-5"/>
             <Input type="password" placeholder="Re-type password" className="mb-5"/>
         </div>
-        <Button>Sign Up</Button>
+        <Button className="text-white bg-indigo-700 hover:bg-indigo-900 hover:text-white">Sign Up</Button>
 
 
     </div>

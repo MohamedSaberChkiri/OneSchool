@@ -8,7 +8,7 @@ function HomeText() {
 
         <h1>Learn From The Expert</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
-        <Button className="bg-white text-black hover:text-white">ADMISSION NOW</Button>
+        <Button className="text-white bg-indigo-700 hover:bg-indigo-900 hover:text-white ">ADMISSION NOW</Button>
         
     </div>
   )

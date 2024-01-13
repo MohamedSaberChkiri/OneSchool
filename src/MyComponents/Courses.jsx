@@ -15,7 +15,7 @@ function Courses() {
     <div className='courses-container'>
 
         <div className="colored-part">
-            <h1>Courses</h1>
+            <h1 className='text-white'>Courses</h1>
 
         </div>
 
