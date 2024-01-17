@@ -98,8 +98,53 @@
     justify-content: center;
     position: relative;
     z-index: 3;
+    
 
   }
+  
+  .course-time{
+    font-size: 13px;
+    color: grey;
+    display: flex;
+    align-items: center;
+  }
+  .course-title{
+    font-size: 20px;
+    color: rgb(99 102 241);
+    margin: 1vh 0 1vh 0;
+  }
+  .courseDescription{
+    color: grey;
+    margin-bottom: 1vh;
+  }
+  .course-stats{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey ;
+  }
+  .studentsNumber{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 2vh;
+  }
+  .courseComments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid grey;
+    height: 100%;
+    width: 30%;
+  }
+
+
   .colored-part{
     width: 100%;
     height: 50%;
@@ -129,10 +174,19 @@
 
   .course-card{
     height: 400px;
-    width: 250px;
-    background: grey;
-    border: 2px solid black;
+    width: 300px;
+    
+ 
+ 
   }
+
+.course-picture{
+  height: 190px;
+  width: 300px;
+ 
+
+}
+
 
   .programs-sections{
     width: 100%;
@@ -148,14 +202,15 @@
     
     
   }
-  .programs-sections h1{
+  .proText h1{
     font-size: 50px;
     font-weight: bolder;
   }
  
-  .programs-sections p{
+  .proText p{
     max-width: 600px;
     margin: 5vh 0 5vh 0;
+    color: grey;
 
    
    
@@ -189,14 +244,14 @@
   }
 
 
-  .image1{
+  .image3{
     background: url('./MyComponents/images/Learning-amico.png');
     
   }
   .image2{
     background: url('./MyComponents/images/Learning-cuate.png');
   }
-  .image3{
+  .image1{
     background: url('./MyComponents/images/Webinar-pana.png');
   }
 
@@ -206,20 +261,124 @@
     height: 400px;
     
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     
     
     
     
   }
 
+  
 
   .first-program, .second-program, .third-program{
+    padding: 5vh;
     display: flex;
     flex-wrap: wrap;
-    max-width: 900px;
-    padding: 5vh;
+    max-width: 1100px;
     align-items: center;
     justify-content: space-between;
     
-    margin-top: 5vh;
+    
+  }
+
+  .teachers-container{
+    max-width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+    
+  }
+  .teacher-card-container{
+    
+   
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgb(218, 217, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10vh 0 5vh 0;
+    
+  }
+
+
+.prof-name{
+  font-size: 20px;
+}
+.prof-subject{
+  color: rgb(201, 201, 201) ;
+  font-size: 18px;
+}
+.prof-description{
+  color: grey;
+  max-width: 250px;
+  text-align: center;
+}
+  .teacher-image{
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    
+    
+  }
+
+
+  .feedback-container{
+    width: 100%;
+    height: 508px;
+    background-image: url('./MyComponents/images/homeimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+   
+    
+  }
+
+  .feedback-container::before{
+    
+      content: "";
+      position: absolute;
+     
+      width: 100%;
+      height: 508px;
+      background-color: rgba(0, 0, 0, 0.8); /* Change the color and opacity here */
+      z-index: 1; /* Adjust the z-index as needed */
+  
+  }
+
+  .on-feed-back{
+    width: 600px;
+    font-size: 18px;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+  }
+  .feedback-pic{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 30px;
   }

@@ -3,14 +3,14 @@ import '../App.css'
 import ProgramText from './ProgramText'
 
 import { AccountBalance, LocalLibrary } from '@mui/icons-material'
+import Program from './Program'
 
 function Programs() {
   return (
     <div className='programs-sections'>
 
         
-            <h1>Our Programs</h1>
-            <p id='pp1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
+          <Program title="Our Programs" desc= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!"/>
         
 
       <div className="semi-container">
