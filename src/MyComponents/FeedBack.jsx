@@ -1,16 +1,15 @@
 import React from 'react'
+import Feddd from './images/graduated.jpg'
 
 function FeedBack() {
 
-    const style1 = {
-        background :'url("./images/teacher1.jpg")'
-    }
+    
   return (
     <div className='feedback-container'>
 
         <div className="on-feed-back">
 
-            <div className="feedback-pic" style={style1} ></div>
+            <img className="feedback-pic" src={Feddd} ></img>
             <div className="name">Jerome Jensen</div>
             <div className="feedback">“ Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem soluta sit eius necessitatibus voluptate excepturi beatae ad eveniet sapiente impedit quae modi quo provident odit molestias! Rem reprehenderit assumenda ”</div>
         </div>

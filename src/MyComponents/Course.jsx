@@ -8,7 +8,7 @@ function Course(props) {
     <div className='course-card'>
 
                 
-                <div className="course-picture" style={{background : `url('${props.background}')`}} ></div>
+                <img className="course-picture" alt='image' src={props.background} ></img>
 
 
 

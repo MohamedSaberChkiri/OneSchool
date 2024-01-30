@@ -1,4 +1,7 @@
 import React from 'react'
+import Image1 from './images/course1.jpg'
+import Image2 from './images/course2.jpg'
+import Image3 from './images/course3.jpg'
 
 
 import {
@@ -13,9 +16,9 @@ import Course from './Course'
 function Courses() {
 
   const coursesData = [
-    { title: "Study Law of Physics", description: "Lorem ipsum dolor sit arnet ipsa nulla adipisicing elit.", bg: './images/course1.jpg' },
-    { title: "Logo Design Course", description: "Lorem ipsum dolor sit arnet ipsa nulla adipisicing elit." , bg : './images/course2.jpg' },
-    { title: "Js Programming Language", description: "Lorem ipsum dolor sit arnet ipsa nulla adipisicing elit." , bg : './images/course3.jpg' }
+    { title: "Study Law of Physics", description: "Lorem ipsum dolor sit arnet ipsa nulla adipisicing elit.", bg: Image1 },
+    { title: "Logo Design Course", description: "Lorem ipsum dolor sit arnet ipsa nulla adipisicing elit." , bg : Image2 },
+    { title: "Js Programming Language", description: "Lorem ipsum dolor sit arnet ipsa nulla adipisicing elit." , bg : Image3 }
    
   ];
 
