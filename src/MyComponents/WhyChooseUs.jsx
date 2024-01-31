@@ -11,17 +11,20 @@ function WhyChooseUs() {
 
             <div className="bottom-side-wsus">
 
-                            <div className="wsus-left">
-                                <div className="grund-container">
-                                    <Reason reasonIcon = {<LocalLibrary />} reasonText='22,931 Yearly Graduates'/>
-                                    <Reason reasonIcon={<AccountBalance/>} reasonText='150 Universities Worldwide'/>
-                                    <Reason reasonIcon= {<LocalLibrary/>}reasonText='Top Professionals in The World'/>
-                                    <Reason reasonIcon={<AccountBalance/>}reasonText='Expand Your Knowledge'/>
-                                    <Reason reasonIcon= {<LocalLibrary/>}reasonText='Best Online Teaching Assistant Courses'/>
-                                    <Reason reasonIcon={<AccountBalance/>} reasonText='Best Teachers'/>
-                                </div>
-                            </div>
-                            <div className="wsus-right">
+                                      <div className="wsus-left">
+                                          <div className="grund-container ">
+                                              <Reason reasonIcon = {<LocalLibrary />} reasonText='22,931 Yearly Graduates'/>
+                                              <Reason reasonIcon={<AccountBalance/>} reasonText='150 Universities Worldwide'/>
+                                              <Reason reasonIcon= {<LocalLibrary/>}reasonText='Top Professionals in The World'/>
+                                              <Reason reasonIcon={<AccountBalance/>}reasonText='Expand Your Knowledge'/>
+                                              <Reason reasonIcon= {<LocalLibrary/>}reasonText='Best Online Teaching Assistant Courses'/>
+                                              <Reason reasonIcon={<AccountBalance/>} reasonText='Best Teachers'/>
+                                          </div>
+                                      </div>
+
+
+
+                            <div className="wsus-right sm:w-[600px] sm:h-[553px] w-[400px] h-[490px]">
                                 
                             </div>
 

@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 function MessageUs() {
   return (
     <div className='mucont'>
-            <div className="message-us-top mt-5">
+            <div className="message-us-top mt-5 p-[10px]">
                 <Program title="Message Us" desc="Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi."/>
             </div>
 
