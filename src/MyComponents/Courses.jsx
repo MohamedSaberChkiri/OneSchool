@@ -31,12 +31,12 @@ function Courses() {
         </div>
 
         <div className="white-part">
-
+      <div className='carousel-container '>
         <Carousel
       opts={{
         align: "center",
       }}
-      className="w-[300px] sm:w-max"
+      className="w-full sm:w-max"
     >
       <CarouselContent >
         {coursesData.map((course, index) => (
@@ -58,7 +58,7 @@ function Courses() {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-
+    </div>
         </div>
 
 

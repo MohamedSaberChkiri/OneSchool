@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProgramText(props) {
   return (
-    <div className='programs-text-container'>
+    <div className='programs-text-container sm:ml-[100px] ml-0'>
 
         <h2 className="p-title">
                 {props.title}

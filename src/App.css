@@ -106,6 +106,14 @@ html, body {
     font-weight: bold;
   }
 
+  .carousel-container{
+    margin: 0 auto;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .courses-container{
     height: 700px;
     width: 100%;
@@ -300,11 +308,13 @@ html, body {
 
   .teachers-container{
     max-width: max-content;
+    min-width: 100%;
     align-items: center;
     justify-content: center;
     gap: 3vh;
     margin: 0 auto;
     flex-wrap: wrap;
+    
    
     
   }
@@ -457,6 +467,7 @@ html, body {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 100%;
   }
   .wsus-right{
     

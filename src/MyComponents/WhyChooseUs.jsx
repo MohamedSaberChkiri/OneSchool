@@ -24,7 +24,7 @@ function WhyChooseUs() {
 
 
 
-                            <div className="wsus-right sm:w-[600px] sm:h-[553px] w-[400px] h-[490px]">
+                            <div className="wsus-right sm:w-[600px] sm:h-[553px] w-[300px] h-[300px]">
                                 
                             </div>
 
