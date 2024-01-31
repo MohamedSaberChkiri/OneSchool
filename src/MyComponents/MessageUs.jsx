@@ -1,7 +1,9 @@
 import React from 'react'
 import Program from './Program'
 import { TextField } from '@mui/material'
-import { TextareaAutosize } from '@mui/base/TextareaAutosize';
+import { Textarea } from '@/components/ui/textarea'
+import { Button } from '@/components/ui/button'
+
 
 
 function MessageUs() {
@@ -15,14 +17,16 @@ function MessageUs() {
             <div className="form">
 
                     <div className="form-names">
-                    <TextField id="outlined-basic" label="First Name" variant="outlined" />
-                    <TextField id="outlined-basic" label="Last Name" variant="outlined"/>
+                    <TextField id="outlined-basic" label="First Name" className='userinputname ' variant="outlined" />
+                    <TextField id="outlined-basic" label="Last Name" className='userinputname' variant="outlined"/>
 
                     </div>
-                    <TextField id="outlined-basic" label="Subject" variant="outlined"/>
-                    <TextField id="outlined-basic" label="Email" variant="outlined"/>
+                    <TextField id="outlined-basic" label="Subject" className='userinput2' variant="outlined"/>
+                    <TextField id="outlined-basic" label="Email" className='userinput2' variant="outlined"/>
+                    <Textarea placeholder="Write Your Message Here ..."/>
                     
-                    <TextareaAutosize placeholder="Write Your message Here ..."/>
+                    <Button className="w-[350px] h-[5vh] rounded-3xl bg-indigo-600 hover:bg-indigo-700">SEND MESSAGE</Button>
+                    
 
 
             </div>

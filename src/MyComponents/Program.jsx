@@ -3,7 +3,7 @@ import '../App.css'
 
 function Program(props) {
   return (
-    <div className='flex flex-col items-center justify-center proText'>
+    <div className='flex flex-col items-center justify-center proText '>
 
 <h1>{props.title}</h1>
 <p id='pp1'>{props.desc}</p>
