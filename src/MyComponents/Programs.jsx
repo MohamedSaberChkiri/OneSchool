@@ -15,9 +15,9 @@ function Programs() {
 
       <div className="semi-container">
 
-        <div className="first-program">
+        <div className="first-program sm:justify-between justify-center">
 
-              <div className="image1"></div>
+              <div className="image1 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px]"></div>
               <ProgramText 
               title="We Are Excellent In Education" 
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo." 
@@ -27,7 +27,7 @@ function Programs() {
               state2="150 Universities Worldwide"
               />
         </div>
-        <div className="second-program">
+        <div className="second-program  sm:justify-between justify-center">
 
               
               <ProgramText 
@@ -40,11 +40,11 @@ function Programs() {
               />
 
 
-              <div className="image2"></div>
+              <div className="image2 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px]"></div>
         </div>
-        <div className="third-program">
+        <div className="third-program  sm:justify-between justify-center">
 
-              <div className="image3"></div>
+              <div className="image3 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px] "></div>
 
 
               <ProgramText 
