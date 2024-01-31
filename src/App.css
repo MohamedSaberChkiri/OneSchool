@@ -561,3 +561,15 @@ padding: 0;}
   .cpr-heart{
     color: rgb(99 102 241);
   }
+.sidebarmenu-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.sidebarLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
