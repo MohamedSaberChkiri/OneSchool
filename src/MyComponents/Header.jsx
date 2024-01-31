@@ -1,31 +1,10 @@
-// import { Button } from '@/components/ui/button'
-// import React from 'react'
-// import '../App.css'
 
-// function Header() {
-//   return (
-//     <div className='Header-container'>
-//         <div className="logo text-white">OneSchool</div>
-//         <div className="buttons">
-//             <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">Home</Button>
-//             <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">Courses</Button>
-//             <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">Programs</Button>
-//             <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">Teachers</Button>
-//         </div>
-//         <div className="contactus">
-//             <Button className='bg-indigo-700 text-white hover:bg-indigo-900' >Contact Us</Button>
-//         </div>
-
-
-//     </div>
-//   )
-// }
-
-// export default Header
 
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-scroll';
+
 import '../App.css';
 
 function Header() {
@@ -55,23 +34,40 @@ function Header() {
     <div className={`Header-container ${scrolled ? 'scrolled' : ''}`}>
       <div className="logo text-white">OneSchool</div>
       <div className="buttons">
-        <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
+      <Link to="home" smooth={true} duration={500} offset={-70}>
+      <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
           Home
         </Button>
-        <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
+      </Link>
+
+      <Link to="courses" smooth={true} duration={500} offset={-70}>
+      <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
           Courses
         </Button>
-        <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
+      </Link>
+
+      <Link to="programs" smooth={true} duration={500} offset={-70}>
+      <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
           Programs
         </Button>
-        <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
+      </Link>
+
+      <Link to="teachers" smooth={true} duration={500} offset={-70}>
+      <Button variant="ghost" className="text-white hover:bg-indigo-700 hover:text-white">
           Teachers
         </Button>
+      </Link>
+        
+    
       </div>
       <div className="contactus">
-        <Button className={`bg-indigo-700 text-white hover:bg-indigo-900 ${scrolled ? 'scrolled' : ''}`}>
+
+      <Link to="contact" smooth={true} duration={500} offset={-70}>
+      <Button className={`bg-indigo-700 text-white hover:bg-indigo-900 ${scrolled ? 'scrolled' : ''}`}>
           Contact Us
         </Button>
+      </Link>
+        
       </div>
     </div>
   );
