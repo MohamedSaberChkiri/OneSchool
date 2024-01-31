@@ -36,12 +36,12 @@ function Courses() {
       opts={{
         align: "start",
       }}
-      className="max-w-[950px]"
+      className="w-[300px] sm:w-max"
     >
-      <CarouselContent>
+      <CarouselContent >
         {coursesData.map((course, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
+          <CarouselItem key={index} className="sm:basis-1/3">
+            <div className="p-2">
               {/* Passing different props to each Course component */}
               <Course
                 key={index}
