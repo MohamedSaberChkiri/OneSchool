@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 
 function SignUp() {
   return (
-    <div className='signup-container sm:w-[450px] w-[300px] h-[300px] sm:h-[400px]'>
+    <div className='signup-container sm:w-[450px] w-[300px] h-[300px] sm:h-[400px]' data-aos="fade-up">
 
         <div className="signup-text"><h3>Sign Up</h3></div>
         <div className="signup-data-container w-full">

@@ -17,7 +17,7 @@ function Programs() {
 
         <div className="first-program sm:justify-between justify-center">
 
-              <div className="image1 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px]"></div>
+              <div className="image1 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px]" data-aos="fade-right"></div>
               <ProgramText 
               title="We Are Excellent In Education" 
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo." 
@@ -25,9 +25,10 @@ function Programs() {
               icon2={<AccountBalance/>}
               state1="22,931 Yearly Graduates" 
               state2="150 Universities Worldwide"
+              
               />
         </div>
-        <div className="second-program  sm:justify-between justify-center">
+        <div className="second-program  sm:justify-between justify-center" >
 
               
               <ProgramText 
@@ -40,11 +41,11 @@ function Programs() {
               />
 
 
-              <div className="image2 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px]"></div>
+              <div className="image2 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px]" data-aos="fade-right"></div>
         </div>
         <div className="third-program  sm:justify-between justify-center">
 
-              <div className="image3 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px] "></div>
+              <div className="image3 sm:h-[400px] sm:w-[400px] w-[200px] h-[200px] " data-aos="fade-right"></div>
 
 
               <ProgramText 

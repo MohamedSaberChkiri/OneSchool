@@ -26,7 +26,7 @@ function Courses() {
     <div className='courses-container'>
 
         <div className="colored-part">
-            <h1 className='text-white'>Courses</h1>
+            <h1 className='text-white' data-aos="fade-up">Courses</h1>
 
         </div>
 
@@ -37,6 +37,7 @@ function Courses() {
         align: "center",
       }}
       className="w-full sm:w-max"
+      data-aos="fade-up"
     >
       <CarouselContent >
         {coursesData.map((course, index) => (
