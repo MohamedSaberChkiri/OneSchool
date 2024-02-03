@@ -32,6 +32,7 @@ function Courses() {
 
         <div className="white-part">
       <div className='carousel-container '>
+      
         <Carousel
       opts={{
         align: "center",
@@ -41,7 +42,7 @@ function Courses() {
     >
       <CarouselContent >
         {coursesData.map((course, index) => (
-          <CarouselItem key={index} className="sm:basis-1/3 overflow-x-hidden">
+          <CarouselItem key={index} className="sm:basis-1/3 ">
             <div>
               {/* Passing different props to each Course component */}
               <Course

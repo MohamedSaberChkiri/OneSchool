@@ -12,19 +12,23 @@ html, body {
   margin: 0;
   padding: 0;
 }
+body{
+  overflow-x: hidden;
+}
 
 
 .Header-container{
     
     z-index: 999;
     background: transparent;
-    width: 100%;
+    width:100%;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
     top: 0;
+    right: 0;
     transition: .4s ease;
     overflow-x: hidden;
 }
@@ -122,18 +126,35 @@ html, body {
     justify-content: center;
     position: relative;
     z-index: 3;
+    overflow-x: hidden;
     
 
   }
+
+  .course-card{
+    height: 400px;
+    width: 250px;
+    overflow-x: hidden;
+ 
+  }
+
+.course-picture{
+  height: 150px;
+  width: 250px;
+  
+ 
+
+}
   
   .course-time{
     font-size: 13px;
     color: grey;
     display: flex;
     align-items: center;
+    margin-top: 1vh;
   }
   .course-title{
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(99 102 241);
     margin: 1vh 0 1vh 0;
   }
@@ -167,6 +188,10 @@ html, body {
     height: 100%;
     width: 30%;
   }
+  .course-info{
+    
+    padding: 1vh;
+  }
 
 
   .colored-part{
@@ -197,20 +222,7 @@ html, body {
     
   }
 
-  .course-card{
-    height: 400px;
-    width: 300px;
-    
- 
- 
-  }
 
-.course-picture{
-  height: 190px;
-  width: 300px;
- 
-
-}
 
 
   .programs-sections{
